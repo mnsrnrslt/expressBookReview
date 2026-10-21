@@ -1,10 +1,35 @@
 {
   "name": "untitled2",
   "version": "1.0.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "untitled2",
+      "version": "1.0.0"
+    }
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnsrnrslt/expressBookReview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mnsrnrslt/expressBookReview/issues"
+  },
+  "homepage": "https://github.com/mnsrnrslt/expressBookReview#readme",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "express": "^5.3.0",
+    "express-session": "^1.19.0",
+    "jsonwebtoken": "^9.0.3"
+  }
 }
